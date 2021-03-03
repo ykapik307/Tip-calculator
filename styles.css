@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+main{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #b82e1f 74%);
+    align-items: center;
+    justify-content: center;
+    
+}
+.container{
+   
+    width: 30%;
+    height:600px;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 10px;
+    
+}
+.heading{
+    width:100%;
+    height: 40px;
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    font-size:24px;
+    border-radius: 10px 10px 0 0;
+}
+.heading h4{
+    transform: translateY(6px);
+}
+.bill{
+    margin:10px 0 0 15px;
+}
+.bill p{
+    font-size: 22px;
+    font-weight:lighter;
+    margin-top: 10px;
+}
+#cost{
+    width: 250px;
+    height: 30px;
+   box-shadow:         inset 0 0 3px #000000;
+   margin: 10px 0 0 0;
+}
+#Serve{
+    width:300px;
+    height:45px;
+    margin: 10px 0 10 0px;
+    font-size: large;
+    border-radius: 5px;
+    border:2px solid black ;
+    
+    
+}
+#Numbers{
+    width: 250px;
+    height: 30px;
+   box-shadow:         inset 0 0 3px #000000;
+   margin: 10px 0 0 0;
+}
+#calc{
+    background-color: rgb(214, 22, 22);
+    color: white;
+    padding:5px 15px;
+    width: 150px;
+    box-shadow: 2px 2px #888888;
+    z-index:2;
+    transform: translate(130px,20px);
+}
+
+#demo{
+    position: absolute;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+    transform: translate(200px,55px);
+}
+#tip{
+    font-size: 24px;
+    font-weight: bold;
+    transform: translate(145px,50px);
+}
+#each{
+    font-size: 24px;
+    font-weight: bold;
+    transform: translate(205px,85px);
+}
+#sign{
+    margin:0 0 0 -10px;
+    font-size: 20px;
+    font-style: bold;
+}
+
+#people{
+    font-size: 16px;
+    font-weight: lighter;
+}
