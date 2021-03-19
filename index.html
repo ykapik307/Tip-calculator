@@ -20,10 +20,10 @@
             </div>
             <div class="bill">
                 <form id="myform">
-                    <p>How much was your bill?</p>
-                    <span id="sign">$</span>
+                    <p id="kk2">How much was your bill?</p>
+                    <span id="sign">₹</span>
                     <input type="text" id="cost" placeholder="Bill Amount"><br>
-                    <p>How was your service?</p>
+                    <p id="kk1">How was your service?</p>
                     <select id="Serve">
                         <option value="Choose" selected disabled>--Choose an Option--</option> 
                         <option value="Outstanding">30%-Outstanding</option>
@@ -32,16 +32,19 @@
                         <option value="Bad">10%-Bad</option>
                         <option value="Terrible">5%-Terrible</option>
                     </select>
-                    <p> How many people are sharing the bill?</p>
+                    <p id="kk"> How many people are sharing the bill?</p>
                     <input type="text" id="Numbers" placeholder="Number of People">
-                    <span id="people">people</span><br><br>
+                   <br><br>
                     <button  type="button" onclick="myFunction()" id="calc">CALCULATE!</button>
                 </form>
 
             </div>
+            <br>
+           <div class="results">
             <p id="tip"></p>
             <p id="demo"></p>
-            <p id="each"></p>
+            <p id="total"></p>
+           </div>
         </div>
     </main>
 
