@@ -25,9 +25,15 @@ else{
     c=0.15;
 }
 k=(x*c)/z;
-k.toFixed(2);
 let n = k.toFixed(2);
-document.getElementById("tip").innerHTML='TIP AMOUNT';
-document.getElementById("demo").innerHTML ='$'+n;
-document.getElementById("each").innerHTML='each';
+let bill1=x/z;
+bill=bill1.toFixed(2);
+
+let tot1=parseFloat(bill)+parseFloat(n);
+let tot=tot1.toFixed(2);
+document.getElementById("tip").innerHTML='Bill Amount : ₹'+bill+' each';
+document.getElementById("demo").innerHTML='Tip Amount : ₹'+n+' each';
+document.getElementById("total").innerHTML='Total Amount : ₹'+tot+' each';
+
+
 }
